@@ -1,0 +1,12 @@
+{
+  "name": "deno-utils",
+  "version": "1.0.0",
+  "description": "node中常用的一些工具函数封装库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["utils", "node"],
+  "author": "",
+  "license": "ISC"
+}
