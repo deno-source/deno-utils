@@ -1,6 +1,6 @@
 {
   "name": "deno-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node中常用的一些工具函数封装库",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/deno-source/deno-utils.git"
+    "url": "git+https://github.com/deno-source/deno-utils.git"
   },
   "keywords": [
     "utils",
