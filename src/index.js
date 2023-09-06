@@ -14,8 +14,12 @@ function downloadFileSync(filesURL, fileNames, filePath, success, error) {
     // 发起 GET 请求并将文件保存到本地
     request(fileUrl)
       .pipe(fs.createWriteStream(completePath))
-      .on("close", success || function () {})
-      .on("error", error || function () {});
+      .on("close", function () {
+        success && success(fileUrl, fileName, completePath, index);
+      })
+      .on("error", function () {
+        error && error(fileUrl, fileName, completePath, index);
+      });
   });
 }
 

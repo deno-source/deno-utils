@@ -1,6 +1,6 @@
 {
   "name": "deno-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "node中常用的一些工具函数封装库",
   "main": "./src/index.js",
   "scripts": {
